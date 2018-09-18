@@ -1,0 +1,47 @@
+/* pages/main/main.wxss */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.nav {
+  height: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  font-size: 16px;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-item {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-item.active {
+  color: #d81e06;
+}
+
+.tab-box {
+  padding-top: 80rpx;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.tab-content {
+  margin-top: 80rpx;
+  height: 100%;
+}
+
+.scoll-h {
+  height: 100%;
+  background: #fafafa;
+}

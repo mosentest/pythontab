@@ -1,0 +1,39 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PythonTab",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconPath": "image/icon_main.png",
+        "selectedIconPath": "image/icon_main_force.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "收藏",
+        "iconPath": "image/icon_index.png",
+        "selectedIconPath": "image/icon_index_force.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/icon_me.png",
+        "selectedIconPath": "image/icon_me_force.png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/logs/logs"
+  ]
+}
